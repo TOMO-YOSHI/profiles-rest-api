@@ -1,5 +1,7 @@
 # profiles-rest-api
 
+https://docs.docker.com/samples/django/
+
 ## How to use
 ### Docker build command
 docker build -t profiles-rest-api:latest .
@@ -14,3 +16,6 @@ docker rm profiles-rest-api-container
 
 ### Docker exec command
 docker exec -it profiles-rest-api-container bash
+
+### Run server
+python manage.py runserver 0.0.0.0:5554

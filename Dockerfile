@@ -9,7 +9,7 @@ WORKDIR /profiles-rest-api
 COPY requirements.txt /profiles-rest-api/
 
 # install dependencies
-# RUN pip instyall -r requirements.txt
+# RUN pip install -r requirements.txt
 
 # Copy the current directory contents into the container at /profiles-rest-api
 COPY . /profiles-rest-api/
